@@ -1,0 +1,78 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "The Rake Fan Remake", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+local Tab = Window:MakeTab({
+	Name = "Teleport",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Radio Area!",
+	Callback = function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(98.0164337, 17.5517864, -476.413879, -0.715386868, 2.33773157e-12, -0.698728621, 7.19991959e-08, 1, -7.37123713e-08, 0.698728621, -1.03040762e-07, -0.715386868)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Abandond Tower!",
+	Callback = function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3.60239291, 98.0474854, 0.500547051, 0.0155775882, -8.31296063e-08, -0.999878645, -4.60699212e-08, 1, -8.38574366e-08, 0.999878645, 4.73706265e-08, 0.0155775882)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Broken Plane!",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(542.24939, 26.0544338, 94.4949722, -0.00211642822, 8.9132195e-09, 0.999997735, 5.07301614e-08, 1, -8.80587248e-09, -0.999997735, 5.07114102e-08, -0.00211642822)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "House!",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(346.803558, 25.9301491, 413.466248, 0.999953806, 2.57693467e-09, -0.00961020123, -3.6737644e-09, 1, -1.14114158e-07, 0.00961020123, 1.14144193e-07, 0.999953806)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Tower!",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(112.868217, 68.038887, 711.452209, 0.0253528655, -3.80722689e-08, 0.999678552, 7.98857727e-08, 1, 3.60585268e-08, -0.999678552, 7.89459094e-08, 0.0253528655)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Shop!",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(494.614868, 12.450264, -339.340363, 0.0328825638, 3.89200068e-08, -0.999459207, 3.71008078e-08, 1, 4.01616944e-08, 0.999459207, -3.84013639e-08, 0.0328825638)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Cage!",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(650.206482, 20.9526253, -698.045349, -0.700489759, 1.37975826e-08, 0.713662446, 4.25240003e-08, 1, 2.24056116e-08, -0.713662446, 4.60426826e-08, -0.700489759)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Rake's Cave!",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(90.6865387, 12.0222731, 197.602295, -0.0107689779, 5.10400113e-08, -0.999942005, -1.10281857e-12, 1, 5.10429814e-08, 0.999942005, 5.5078353e-10, -0.0107689779)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Electricty!",
+	Callback = function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(595.011719, 12.6734972, 636.299805, -0.720530987, -3.2777244e-08, -0.693422735, -5.97133541e-12, 1, -4.72625672e-08, 0.693422735, -3.40500037e-08, -0.720530987)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "War Area!",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(543.216553, 13.4714632, 829.390564, 0.995777667, -8.93402508e-09, 0.0917978659, 1.69630923e-08, 1, -8.6684409e-08, -0.0917978659, 8.78755699e-08, 0.995777667)
+  	end    
+})
